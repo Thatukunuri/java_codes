@@ -19,10 +19,10 @@ public class ArrayShuffler {
         Random rand = new Random();
 
         for (int i = array.length - 1; i > 0; i--) {
-            // Generate a random index between 0 and i (inclusive)
+            
             int randomIndex = rand.nextInt(i + 1);
 
-            // Swap array[i] with array[randomIndex]
+            
             int temp = array[i];
             array[i] = array[randomIndex];
             array[randomIndex] = temp;
